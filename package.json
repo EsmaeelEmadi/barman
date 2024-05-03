@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "post-install": "npx husky-init && npm install",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@emotion/cache": "^11.11.0",
@@ -25,7 +27,7 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
-    "husky": "^9.0.11",
+    "husky": "^8.0.0",
     "lint-staged": "^15.2.2",
     "postcss": "^8",
     "prettier": "^3.2.5",
