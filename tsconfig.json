@@ -24,7 +24,8 @@
       "@/material/*": ["src/lib/components/material/*"],
       "@/themes/*": ["src/lib/themes/*"],
       "@/layouts/*": ["src/lib/components/common/layouts/*"],
-      "@/types/*": ["src/lib/types/*"]
+      "@/types/*": ["src/lib/types/*"],
+      "@/utils/*": ["src/lib/utils/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
