@@ -23,7 +23,8 @@
     "paths": {
       "@/material/*": ["src/lib/components/material/*"],
       "@/themes/*": ["src/lib/themes/*"],
-      "@/layouts/*": ["src/lib/components/common/layouts/*"]
+      "@/layouts/*": ["src/lib/components/common/layouts/*"],
+      "@/types/*": ["src/lib/types/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
