@@ -21,7 +21,9 @@
     "types": ["@testing-library/jest-dom"],
     "baseUrl": ".",
     "paths": {
-      "@/material/*": ["src/lib/components/material/*"]
+      "@/material/*": ["src/lib/components/material/*"],
+      "@/themes/*": ["src/lib/themes/*"],
+      "@/layouts/*": ["src/lib/components/common/layouts/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
