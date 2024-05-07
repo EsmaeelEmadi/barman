@@ -22,10 +22,16 @@
     "baseUrl": ".",
     "paths": {
       "@/material/*": ["src/lib/components/material/*"],
-      "@/themes/*": ["src/lib/themes/*"],
+      "@/elements/*": ["src/lib/components/common/elements/*"],
       "@/layouts/*": ["src/lib/components/common/layouts/*"],
+      "@/providers/*": ["src/lib/components/utility/providers/*"],
+      "@/features/*": ["src/lib/components/features/*"],
+      "@/themes/*": ["src/lib/themes/*"],
       "@/types/*": ["src/lib/types/*"],
-      "@/utils/*": ["src/lib/utils/*"]
+      "@/utils/*": ["src/lib/utils/*"],
+      "@/store/*": ["src/lib/store/*"],
+      "@/assets/*": ["src/lib/assets/*"],
+      "@/mock/*": ["src/mock/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
