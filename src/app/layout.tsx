@@ -5,6 +5,13 @@ import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
 import { theme } from "@/themes/material/mainTheme";
 import { ThemeProvider } from "@mui/material/styles";
 
+
+// STORE
+import StoreProvider from "@/providers/store/StoreProvider";
+
+// COMPONENTS
+import MainHeader from "@/layouts/headers/mainHeader/MainHeader";
+
 // STYLES
 import "./globals.css";
 import { CssBaseline } from "@mui/material";
@@ -24,11 +31,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <AppRouterCacheProvider>
-          <ThemeProvider theme={theme}>
-            {children}
-          </ThemeProvider>
-        </AppRouterCacheProvider>
+        <StoreProvider>
+          <AppRouterCacheProvider>
+            <ThemeProvider theme={theme}>
+              <CssBaseline />
+              <MainHeader />
+              {children}
+            </ThemeProvider>
+          </AppRouterCacheProvider>
+        </StoreProvider>
       </body>
     </html>
   );
