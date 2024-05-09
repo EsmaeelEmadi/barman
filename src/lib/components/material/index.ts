@@ -24,6 +24,7 @@ export { default as Fade } from "./Fade";
 export { default as Grid } from "./Grid";
 export { default as Grow } from "./Grow";
 export { default as IconButton } from "./IconButton";
+export { default as InputLabel } from "./InputLabel";
 export { default as LinearProgress } from "./LinearProgress";
 export { default as ListItemIcon } from "./ListItemIcon";
 export { default as Link } from "./Link";
