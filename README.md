@@ -39,3 +39,31 @@ Formik and Formik-mui are used for managing form state and handling form submiss
 ### .env
 Environmental variables are managed using .env files, allowing for secure configuration of sensitive data and settings within the project.
 
+### File Structrue
+
+#### Why `@/material`?
+
+The @/material directory serves the purpose of exporting default Material components. Often, there arises a need to modify a component or add features to it over time. By centralizing the import and export of components in one location, it ensures greater consistency and facilitates easier modification in the future.
+
+>[!TIP]
+> I believe the rest of the file structure is self-explanatory.
+
+## How to use it
+
+### After Installation
+
+```sh
+$npm run post-install
+```
+
+```sh
+$chmod +x .husky/pre-commit
+```
+
+```sh
+$npm run build
+```
+
+```sh
+$npm run serve
+```
