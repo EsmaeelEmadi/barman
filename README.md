@@ -16,6 +16,9 @@
 >I want to address the task concerning the usability of selecting product variants. Frankly, I misunderstood the requirements initially. The task was to "Develop an Options Selector component for choosing product variants. Ensure that the component updates the product details dynamically."
 >I didn't implement this feature because I generate product details and pages using ISR (Incremental Static Regeneration), which I believe is the appropriate approach for this scenario.
 
+>[!IMPORTANT]
+> In a real-world scenario, I typically generate types related to backend resources using Swagger Typescript API. This approach significantly reduces errors and ensures a more persistent design. However, in the case of the mockapi, no Swagger documentation is provided, limiting the ability to generate types automatically.
+
 ## Project Setup
 
 ### Husky and lint-staged
@@ -35,6 +38,4 @@ Formik and Formik-mui are used for managing form state and handling form submiss
 
 ### .env
 Environmental variables are managed using .env files, allowing for secure configuration of sensitive data and settings within the project.
-
-
 
