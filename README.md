@@ -1,4 +1,4 @@
-# Test Project
+# Test Project (Barman)
 
 ## NOTES
 
@@ -15,3 +15,26 @@
 >[!IMPORTANT]
 >I want to address the task concerning the usability of selecting product variants. Frankly, I misunderstood the requirements initially. The task was to "Develop an Options Selector component for choosing product variants. Ensure that the component updates the product details dynamically."
 >I didn't implement this feature because I generate product details and pages using ISR (Incremental Static Regeneration), which I believe is the appropriate approach for this scenario.
+
+## Project Setup
+
+### Husky and lint-staged
+Husky and lint-staged have been integrated into this project to ensure consistent styling and linting standards across various development environments and among different developers. Additionally, Prettier and ESLint have been added to meet the requirements of Husky and lint-staged.
+
+### Tailwind
+Tailwind CSS is utilized in this project for efficient styling and rapid development of user interfaces.
+
+### Redux and Redux-Query
+Redux and Redux-Query are employed for managing global states and handling API calls for data that need to be accessible throughout the application.
+
+### SWR
+SWR is utilized for efficient data fetching in components, providing seamless integration with React applications.
+
+### Formik and Formik-mui
+Formik and Formik-mui are used for managing form state and handling form submissions, ensuring a smooth user experience in form interactions.
+
+### .env
+Environmental variables are managed using .env files, allowing for secure configuration of sensitive data and settings within the project.
+
+
+
